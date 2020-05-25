@@ -15,7 +15,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li className="nav-item active">
-                        <Link to="/" className ="navbar-brand">About Me</Link>
+                        <Link to="/" className ="navbar-brand">Home</Link>
                     </li>
                     <li className="nav-item active">
                         <Link to="/Projects" className ="navbar-brand">Projects</Link>

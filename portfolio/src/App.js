@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import './App.css';
+import Contact from './components/Contact';
 
 function App () {
   return (
@@ -15,7 +16,7 @@ function App () {
         <Navbar />
           <Route exact path="/" component={About}/>
           <Route exact path="/Projects" component={Projects}/>
-          {/* <Route exact path="/contact" component={Contact}/> */}
+          <Route exact path="/contact" component={Contact}/>
       </HashRouter>
     </div>
   )

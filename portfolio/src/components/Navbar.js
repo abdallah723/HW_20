@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import'../App.css';
 
 function Navbar() {
+
+    const location = useLocation();
+
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,26 +13,19 @@ function Navbar() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <a className="nav-item nav-link active" href="#">About Me <span className="sr-only"></span></a>
-                    <a className="nav-item nav-link active" href="#"> Projects <span className="sr-only"></span></a>
-                    <a className="nav-item nav-link active" href="#"> Contact Me <span className="sr-only"></span></a>
-                </div>
+                <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li className="nav-item active">
+                        <Link to="/" className ="navbar-brand">About Me</Link>
+                    </li>
+                    <li className="nav-item active">
+                        <Link to="/Projects" className ="navbar-brand">Projects</Link>
+                    </li>
+                    <li className="nav-item active">
+                        <Link to="/Contact" className ="navbar-brand">Contact Me</Link>
+                    </li>
+                </ul>
             </div>
         </nav>
-
-
-        // < div>
-        // <nav classname="navbar">
-        //     <Link to={'/'} class="Link"><p className= "nav-link pt-0 pb-0 active">Home</p> </Link>
-
-        //     <Link to={'/about'} class="Link"><p className= "nav-link pt-0 pb-0 active">About</p> </Link>
-
-        //     <Link to={'/portfolio'} class="Link"><p className= "nav-link pt-0 pb-0 active">Portfolio</p> </Link>
-
-        //     <Link to={'/contact'} class="Link"><p className= "nav-link pt-0 pb-0 active">Contact</p> </Link>
-        // </nav>
-        // </div>
     )
 }
 

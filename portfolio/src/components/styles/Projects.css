@@ -1,0 +1,21 @@
+.projects-card {
+    width: 16rem; 
+    height: 18rem; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-left: 0.75%;
+    margin-bottom: 7%;
+}
+
+.projects-container {
+    margin-right: 20%;
+    margin-bottom: 6%;
+    margin-left: 14%;
+    margin-top: 2%;
+}
+
+/* #card-col {
+    align-self: center;
+} */

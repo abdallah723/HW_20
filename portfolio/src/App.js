@@ -1,9 +1,11 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
+import './App.css';
 
 function App () {
   return (
@@ -11,11 +13,9 @@ function App () {
       <Header/>
       <HashRouter>
         <Navbar />
-        <Switch>
-          <Route path="/" component={About}/>
+          <Route exact path="/" component={About}/>
           <Route exact path="/Projects" component={Projects}/>
           {/* <Route exact path="/contact" component={Contact}/> */}
-        </Switch>
       </HashRouter>
     </div>
   )

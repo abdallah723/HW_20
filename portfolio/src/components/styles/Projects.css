@@ -1,21 +1,23 @@
+/* 
+
+ */
+
+
+.jumbotron-fluid {
+    background-color: #12343b !important; 
+    color: antiquewhite;
+}
+
+.container1 {
+    background-color: #c89666 !important;
+}
+
+
 .projects-card {
-    width: 16rem; 
-    height: 18rem; 
-    padding-top: 1.5rem;
     padding-bottom: 1.25rem;
-    margin-left: 10%;
-    margin-top: 3%;
-    padding-left: 0.75%;
     margin-bottom: 7%;
+    margin-top: 5%;
 }
-
-.projects-container {
-    margin-right: 20%;
-    margin-bottom: 6%;
-    margin-left: 14%;
-    margin-top: 2%;
-}
-
 /* #card-col {
     align-self: center;
 } */

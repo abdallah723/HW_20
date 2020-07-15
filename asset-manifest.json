@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/HW_20/static/css/main.fa33c374.chunk.css",
-    "main.js": "/HW_20/static/js/main.1089b5d4.chunk.js",
-    "main.js.map": "/HW_20/static/js/main.1089b5d4.chunk.js.map",
-    "runtime-main.js": "/HW_20/static/js/runtime-main.e89b7503.js",
-    "runtime-main.js.map": "/HW_20/static/js/runtime-main.e89b7503.js.map",
-    "static/js/2.e5b4370f.chunk.js": "/HW_20/static/js/2.e5b4370f.chunk.js",
-    "static/js/2.e5b4370f.chunk.js.map": "/HW_20/static/js/2.e5b4370f.chunk.js.map",
-    "index.html": "/HW_20/index.html",
-    "precache-manifest.ac12ed92f2f81b0bbf2882c9e4004982.js": "/HW_20/precache-manifest.ac12ed92f2f81b0bbf2882c9e4004982.js",
-    "service-worker.js": "/HW_20/service-worker.js",
-    "static/css/main.fa33c374.chunk.css.map": "/HW_20/static/css/main.fa33c374.chunk.css.map",
-    "static/js/2.e5b4370f.chunk.js.LICENSE.txt": "/HW_20/static/js/2.e5b4370f.chunk.js.LICENSE.txt",
-    "static/media/bandifi.png": "/HW_20/static/media/bandifi.4b441f44.png",
-    "static/media/employeesystem.png": "/HW_20/static/media/employeesystem.5bec9890.png",
-    "static/media/fitnesstracker.png": "/HW_20/static/media/fitnesstracker.71a793f7.png",
-    "static/media/headshot.png": "/HW_20/static/media/headshot.ca3ad7ce.png",
-    "static/media/motivateme.png": "/HW_20/static/media/motivateme.e06d85a4.png",
-    "static/media/quest4net.png": "/HW_20/static/media/quest4net.99d335f8.png",
-    "static/media/teamgenerator-1.png": "/HW_20/static/media/teamgenerator-1.b9fada7f.png"
+    "main.css": "/portfolio/static/css/main.fa33c374.chunk.css",
+    "main.js": "/portfolio/static/js/main.b4563e2e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b4563e2e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.e5b4370f.chunk.js": "/portfolio/static/js/2.e5b4370f.chunk.js",
+    "static/js/2.e5b4370f.chunk.js.map": "/portfolio/static/js/2.e5b4370f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.0e216d0391d3d29ee80acb287ebd279d.js": "/portfolio/precache-manifest.0e216d0391d3d29ee80acb287ebd279d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.fa33c374.chunk.css.map": "/portfolio/static/css/main.fa33c374.chunk.css.map",
+    "static/js/2.e5b4370f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e5b4370f.chunk.js.LICENSE.txt",
+    "static/media/bandifi.png": "/portfolio/static/media/bandifi.4b441f44.png",
+    "static/media/employeesystem.png": "/portfolio/static/media/employeesystem.5bec9890.png",
+    "static/media/fitnesstracker.png": "/portfolio/static/media/fitnesstracker.71a793f7.png",
+    "static/media/headshot.png": "/portfolio/static/media/headshot.ca3ad7ce.png",
+    "static/media/motivateme.png": "/portfolio/static/media/motivateme.e06d85a4.png",
+    "static/media/quest4net.png": "/portfolio/static/media/quest4net.99d335f8.png",
+    "static/media/teamgenerator-1.png": "/portfolio/static/media/teamgenerator-1.b9fada7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e89b7503.js",
+    "static/js/runtime-main.fb1b3dac.js",
     "static/js/2.e5b4370f.chunk.js",
     "static/css/main.fa33c374.chunk.css",
-    "static/js/main.1089b5d4.chunk.js"
+    "static/js/main.b4563e2e.chunk.js"
   ]
 }
